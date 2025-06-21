@@ -42,3 +42,31 @@
    <script src="./src/script.js"></script>
 </body>
 </html>
+
+## COMENTÁRIOS
+
+### Comentário de linha
+
+~~~javascript
+
+    //comentário de linha
+
+~~~
+
+### Comentário de bloco simples
+
+~~~javascript
+
+    /*limitardor de comentário simples*/
+    
+~~~
+
+### Comentário de bloco com marcadores
+
+~~~javascript
+
+    /**
+    * comentário de bloco com marcador
+    */
+    
+~~~
