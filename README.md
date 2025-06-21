@@ -28,6 +28,8 @@
 - Criar arquivo ***script.js*** na raiz do diretório ***src***
 - Integrar de forma externa o arquivo ***script.js*** no arquivo ***index.html***
 
+~~~ html
+
 ./index.html
 
 <!DOCTYPE html>
@@ -43,11 +45,14 @@
 </body>
 </html>
 
+~~~
+
 ## COMENTÁRIOS
 
 ### Comentário de linha
 
 ~~~javascript
+./src/script.js
 
     //comentário de linha
 
@@ -56,6 +61,7 @@
 ### Comentário de bloco simples
 
 ~~~javascript
+./src/script.js
 
     /*limitardor de comentário simples*/
     
@@ -64,9 +70,52 @@
 ### Comentário de bloco com marcadores
 
 ~~~javascript
+./src/script.js
 
     /**
     * comentário de bloco com marcador
     */
     
+~~~
+
+## VARIÁVEIS
+
+### Declaração
+
+~~~ javascript
+./src/script.js
+
+var number;
+
+~~~
+
+### Abtribuição de valor
+
+~~~javascript
+./src/script.js
+
+var number;
+
+number = 5;
+
+~~~
+
+### Declaração e atribuição de valor
+
+~~~javascript
+./src/script.js
+
+var number = 5;
+
+~~~
+
+### Reatribuição de valor
+
+~~~javascript
+./src/script.js
+
+var number = 5;
+
+number =10;
+
 ~~~

@@ -1,6 +1,6 @@
 
-//comentário de linha
-/*limitardor de comentário simples*/
-/**
- * comentário de bloco com marcador
- */
+var age = 29;
+
+age = 30;
+
+console.log(age);
