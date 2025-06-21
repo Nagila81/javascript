@@ -119,3 +119,50 @@ var number = 5;
 number =10;
 
 ~~~
+
+### Nomenclaturas
+
+-Caracteres permitidos paa o iniciar a nomenclatura de um identificador
+
+~~~javascript
+./src/script.js
+
+//letras
+
+var number;
+var Number;
+
+//sublinhado
+
+var _number;
+
+//cifrão
+
+var $number;
+
+~~~
+
+- Case-sencitive
+
+~~~javascript
+./src/script.js
+
+//"number" é diferente de "Number"
+
+~~~
+
+-Nomenclatura compostas
+
+~~~javascript
+./src/script.js
+
+//camel case
+var myName;
+
+//pascal case
+var MyName;
+
+//smake case
+var my_name;
+
+~~~
