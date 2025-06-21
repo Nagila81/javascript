@@ -166,3 +166,31 @@ var MyName;
 var my_name;
 
 ~~~
+
+## TIPO DE DADOS 
+
+### Primitivo
+
+~~~javascript
+./src/script.js
+
+// string
+var name = "Alex";
+var surname ='Bessa';
+
+// number
+var age = 29;
+var weight = 85.6;
+
+// boolean
+var active = true;
+var permission = false;
+
+// undefined
+var contains;
+console.log(contains);
+
+// null
+var data = null;
+
+~~~
