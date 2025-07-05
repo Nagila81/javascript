@@ -204,8 +204,6 @@ var data = null;
 // array
 var values = [1, "Alex", true, null];
 
-~~~
-
 // object literal
 
 var person = {nome: "Nagila", age: 29};
@@ -214,10 +212,87 @@ var person = {
     nome: "Nagila", 
     age: 29};
 
-~~~
-
 // function 
 var message = function(){};
+
+~~~
+
+### Inspecionar tipo
+
+~~~ javascript
+./src/script.js
+
+// typeof
+var age = 32;
+
+console.log(typeof age);
+
+~~~
+
+### Coerção de tipo
+- implicita
+
+~~~ javascript
+./src/script.js
+
+var age = 29;
+var weight = "86.5";
+var result =age + weight;
+
+console.log(typeof result);
+
+~~~
+
+- Explicita
+
+~~~ javascript
+./src/script.js
+
+// Number
+var weight = Number("85.5"); //transforma texto(string) em número(number)
+console.log(typeof weight);
+
+//String
+var age = String(29); //transforma número em texto
+console.log(typeof age);
+
+//Boolean
+var active = Boolean(); //true e false
+
+console.log(typeof active);
+
+~~~
+
+- Aritimetico
+
+~~~ javascript
+./src/script.js
+
+var num1 = 10;
+var num2 = 2;
+
+//adição
+var sum = num1 + num2;
+
+//subtração
+var sub = num1 - num2;
+
+//multiplicação
+var mult = num1 * num2;
+
+//divisão
+var div = num1 / num2;
+
+//módulo/resto
+var mod = num1 % num2;
+
+//incremento
+num2++;
+
+//decremento
+num2--
+
+console.log();
 
 ~~~
 
