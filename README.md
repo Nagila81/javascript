@@ -263,37 +263,139 @@ console.log(typeof active);
 
 ~~~
 
+### Operadores
 - Aritimetico
 
 ~~~ javascript
 ./src/script.js
 
-var num1 = 10;
-var num2 = 2;
+// adição
+var a = 10;
+var b = 5;
+var result = a + b;
+console.log(result);
 
-//adição
-var sum = num1 + num2;
+// subtração
+var a = 10;
+var b = 5;
+var result = a - b;
+console.log(result);
 
-//subtração
-var sub = num1 - num2;
+// multiplicação
+var a = 10;
+var b = 5;
+var result = a * b;
+console.log(result);
 
-//multiplicação
-var mult = num1 * num2;
+// divisão 
+var a = 10;
+var b = 5;
+var result = a / b;
+console.log(result);
 
-//divisão
-var div = num1 / num2;
+// módulo
+var a = 10;
+var b = 5;
+var result = a % b;
+console.log(result);
 
-//módulo/resto
-var mod = num1 % num2;
+// incremento
+var x = 5;
+x++;
+console.log(x);
 
-//incremento
-num2++;
-
-//decremento
-num2--
-
-console.log();
+// decremento
+var x = 5;
+x--;
+console.log(x);
 
 ~~~
+
+- Atribuição
+
+~~~ javascript
+./src/script.js
+
+// simples
+var name = "Alex";
+
+// atribuição de adição
+var balance = 100;
+balance += 50;
+console.log(balance);
+
+// atribuição de subtração
+var balance = 100;
+balance -= 50;
+console.log(balance);
+
+// atribuição de multiplicação
+var balance = 100;
+balance *= 50;
+console.log(balance);
+
+// atribuição de divisão
+var balance = 100;
+balance /= 50;
+console.log(balance);
+
+// atribuição de módulo
+var balance = 100;
+balance %= 50;
+console.log(saldo);
+
+~~~
+
+- Comparação
+
+~~~ javascript
+./src/script.js
+
+// igual
+console.log(10 == "10");
+
+// estritamente igual
+console.log(10 === "10");
+
+// diferente
+console.log(10 != "10");
+
+// estritamente diferente
+console.log(10 !== "10");
+
+// maior que
+console.log(10 > 5);
+
+// menor que
+console.log(10 < 5);
+
+// maior ou igual
+console.log(10 >= 10);
+
+// menor ou igual
+console.log(10 <= 10);
+
+~~~ 
+
+- Lógicos
+
+~~~ javascript
+./src/script.js
+
+// AND
+var age = 29;
+var license = true;
+console.log(age >= 18 && license);
+
+// OR
+var age = 29;
+var license = false;
+console.log(age >= 18 || license);
+
+// NOT
+var active = true;
+console.log(!active);
+
+~~~ 
 
 
