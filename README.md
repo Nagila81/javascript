@@ -465,3 +465,44 @@ switch (light) {
     default:
         console.log("Invalid color")
 }
+~~~
+
+### Estruturas de Repetições
+
+#### for
+
+~~~ javascript
+./src/script.js
+
+for (var n = 0; n <= 5; n++) {
+    console.log("Number: " + n);
+}
+
+~~~
+
+#### while
+
+~~~ javascript
+./src/script.js
+
+var n = 0;
+
+while (n <= 5) {
+    console.log("Number:" + n);
+    n++;
+}
+
+~~~
+
+#### do while
+
+~~~ javascript
+./src/script.js
+
+var n = 10;
+
+do {
+    console.log("Executou ao menos uma vez.")
+} while (n < 5)
+
+~~~
